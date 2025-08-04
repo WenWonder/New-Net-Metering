@@ -2,3 +2,9 @@ import pandas as pd
 import streamlit as st
 
 st.write('Status Monitoring')
+
+url_data = "https://raw.githubusercontent.com/WenWonder/New-Net-Metering/refs/heads/main/sample.csv"
+
+data_csv = pd.read_csv(url_data)
+
+data_csv.head()
