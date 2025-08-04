@@ -7,4 +7,4 @@ url_data = 'https://raw.githubusercontent.com/WenWonder/New-Net-Metering/refs/he
 data_csv = pd.read_csv(url_data)
 data_csv.head()
 
-st.write(url)
+st.write(url_data)
