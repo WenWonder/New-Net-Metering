@@ -3,8 +3,8 @@ import pandas as pd
 
 st.write('Net Metering Monitoring')
 
-url = 'https://raw.githubusercontent.com/WenWonder/New-Net-Metering/refs/heads/main/sample.csv'
-df = pd.read_csv(url, index_col=0)
-print (df)
+url_data = 'https://raw.githubusercontent.com/WenWonder/New-Net-Metering/refs/heads/main/sample.csv'
+data_csv = pd.read_csv(url_data)
+data_csv.head()
 
 st.write(url)
